@@ -1,3 +1,175 @@
-_G.Color = Color3.fromRGB(0, 255, 17)
- 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/PowerxCANDYYY/BFFREE/main/POWERX.lua"),true))()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.Position = UDim2.new(0.314225018, 0, 0.270727575, 0)
+Frame.Size = UDim2.new(0, 349, 0, 271)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame_2.Position = UDim2.new(0.0233251359, 0, 0.289151251, 0)
+Frame_2.Size = UDim2.new(0, 332, 0, 180)
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton.Position = UDim2.new(0.0271084346, 0, 0.0531400926, 0)
+TextButton.Size = UDim2.new(0, 146, 0, 43)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Infinite Yield"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_2.Position = UDim2.new(0.530120492, 0, 0.0531400926, 0)
+TextButton_2.Size = UDim2.new(0, 146, 0, 43)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Blox Fruit"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_3.Position = UDim2.new(0.0271084346, 0, 0.378985494, 0)
+TextButton_3.Size = UDim2.new(0, 146, 0, 43)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "King Legacy"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+TextLabel.Parent = TextButton_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.Position = UDim2.new(-0.0620148554, 0, 1.53237414, 0)
+TextLabel.Size = UDim2.new(0, 332, 0, 45)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Credits to XXXAuroraXXX#0360"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+TextButton_4.Parent = Frame_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_4.Position = UDim2.new(0.530120492, 0, 0.378985494, 0)
+TextButton_4.Size = UDim2.new(0, 146, 0, 43)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Senseless"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_2.Position = UDim2.new(-0.000371020287, 0, -0.00250919815, 0)
+TextLabel_2.Size = UDim2.new(0, 349, 0, 45)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Mercury Script Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function SCMEVOF_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	TextButton121221 = script.Parent
+	TextButton121221.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(SCMEVOF_fake_script)()
+local function MHWJBXF_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	TextButton121221 = script.Parent
+	TextButton121221.MouseButton1Down:connect(function()
+		repeat wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+	end)
+end
+coroutine.wrap(MHWJBXF_fake_script)()
+local function YQECQX_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	TextButton121221 = script.Parent
+	TextButton121221.MouseButton1Down:connect(function()
+		repeat wait() until game:IsLoaded()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+	end)
+end
+coroutine.wrap(YQECQX_fake_script)()
+local function UUUT_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	TextButton121221 = script.Parent
+	TextButton121221.MouseButton1Down:connect(function()
+		getgenv().SenselessHub_Theme = "Dark" -- Light, Dark, Mocha, Aqua, Jester
+		getgenv().SenselessHub_Style = 3    
+		-- These are default settings | materiallua.qg
+	
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheMightySource/Senseless-Hub/main/Loader.lua'),true))()
+	end)
+end
+coroutine.wrap(UUUT_fake_script)()
+local function DIJOZK_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(DIJOZK_fake_script)() 
